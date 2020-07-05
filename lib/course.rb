@@ -13,6 +13,11 @@ class Course
     @@all
   end
   
+  def self.resest_all
+    @@all.clear
+  end
+  
+  
   
   
   
