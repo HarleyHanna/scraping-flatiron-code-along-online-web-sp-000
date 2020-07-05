@@ -21,7 +21,9 @@ class Scraper
   end
   
   def get_courses
-    course = @doc.css()
+    courses = @doc.css("posts-holder")
+    courses.each do |course|
+      array << 
   
 end
 
